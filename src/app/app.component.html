@@ -12,29 +12,12 @@
 
 
     <div class="container">
-      <div class="row">
-        <p>Hola mundo en Angular!!</p>
-        <h1>{{title}}</h1>
-
-        <div>
-          la suma de 2 + 2 es {{2+2}}
+        <div class="row">
+          <app-product-list></app-product-list>
         </div>
-
-        <div>
-          El doble de 3 es {{duplicarNumero(3)}}
-        </div>
-        <h2>Datos de la película</h2>
-        <div>
-          {{pelicula.titulo}}
-        </div>
-        <div>
-          {{pelicula.fechaLanzamiento | date:"dd MMMM yyyy" | uppercase}}
-        </div>
-        <div>
-          {{pelicula.precio | currency}}
-        </div>
-      </div>
     </div>
+
+    
   </body>
 </html>
 
